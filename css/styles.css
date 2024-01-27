@@ -60,12 +60,12 @@ body, html {
 .social-links{
     position: absolute;
     left: 20px;
-    top: 55.5%; /* Adjust this value as needed */
+    top: 60%; /* Adjust this value as needed */
     transform: translateY(-50%);
     color: white; /* Icon color */
     font-size: 24px; /* Icon size */
     z-index: 10;
-    padding: 4%;
+    padding: 4.3%;
     display: inline-block; /* Display links on the same line */
 
 
