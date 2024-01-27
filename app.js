@@ -5,10 +5,12 @@ const renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.getElementById('three-container').appendChild(renderer.domElement);
 
+
 // Adding a cube
 const geometry = new THREE.BoxGeometry();
-const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+const material = new THREE.MeshBasicMaterial({ color: 0xf7891 });
 const cube = new THREE.Mesh(geometry, material);
+
 scene.add(cube);
 
 camera.position.z = 5;
@@ -32,3 +34,4 @@ window.addEventListener('resize', () => {
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
 });
+
