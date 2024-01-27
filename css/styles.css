@@ -12,12 +12,87 @@ body, html {
     height: 100%;
 }
 
-#overlay-text {
+.overlay-text {
     position: absolute;
     top: 20px; /* Adjust as needed */
     left: 20px; /* Adjust as needed */
     color: white; /* Choose a color that contrasts with your scene */
     font-size: 24px; /* Adjust as needed */
     z-index: 100; /* Ensure it's above the canvas */
+    display: flex;
+    color: redwhite;
+}
+/* Centering the navbar */
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+/* Custom Navbar Styles */
+.navbar-nav .nav-item .nav-link {
+    color: white !important; /* White color for font */
+    font-size: 24px; /* Increased font size */
+    margin-right: 20px; /* Space between items */
+}
+
+/* Transparent navbar background */
+.navbar-transparent {
+    background: transparent !important;
+    box-shadow: none;
+}
+
+.intro-text {
+    position: absolute;
+    left: 20px;
+    top: 40%; /* Set the top position to 50% of the viewport height */
+    transform: translateY(-50%); /* Adjust for the height of the element itself */
+    color: white;
+    font-size: 44px;
+    z-index: 10;
+    margin-left: 5%;
+
+}
+
+.social-links{
+    position: absolute;
+    left: 20px;
+    top: 55.5%; /* Adjust this value as needed */
+    transform: translateY(-50%);
+    color: white; /* Icon color */
+    font-size: 24px; /* Icon size */
+    z-index: 10;
+    padding: 4%;
+    display: inline-block; /* Display links on the same line */
+
+
+}
+
+.logo{
+    color: white;
+    font-size: 44px;
+    padding: 4%;
+    margin-left: 5%;
+}
+
+.left-side-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.social-links a {
+    color: white; /* Icon color */
+    font-size: 40px; /* Icon size */
+    margin-right: 20px; /* Space between icons */
+    display: inline-block; /* Display links on the same line */
 }
 
