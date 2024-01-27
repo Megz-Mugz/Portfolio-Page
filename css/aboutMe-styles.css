@@ -1,0 +1,43 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(to right, #000, #fff, #3F1D38, #E3651D);
+    background-size: 200% 100%;
+    animation: gradient 10s linear infinite;;
+
+}
+
+/* Centering the navbar */
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+/* Custom Navbar Styles */
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    font-size: 34px;
+    margin-right: 20px;
+}
+
+/* Transparent navbar background */
+.navbar-transparent {
+    background: transparent;
+    box-shadow: none;
+}
+
+.center-card{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh; /* Adjust the height as needed */
+}
+
+.card{
+    width: 40%;
+}

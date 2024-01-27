@@ -1,7 +1,7 @@
 // Function to simulate typing animation
 function startTypingAnimation() {
     const introText = document.getElementById("name");
-    const textToType = "Rohan Mengle";
+    const textToType = "rohan mengle";
     let index = 0;
 
     function typeCharacter() {
