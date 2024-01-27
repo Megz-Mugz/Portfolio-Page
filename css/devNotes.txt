@@ -1,0 +1,8 @@
+plan: 
+
+landing page w/ hook and few word summary
+
+experience skills and projects will b on a separte page called "about me"
+
+this about me page will start w/ experience, then skills, and then projects. 
+
