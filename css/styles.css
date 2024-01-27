@@ -12,6 +12,7 @@ body, html {
     height: 100%;
 }
 
+
 .overlay-text {
     position: absolute;
     top: 20px; /* Adjust as needed */
@@ -51,7 +52,7 @@ body, html {
     top: 40%; /* Set the top position to 50% of the viewport height */
     transform: translateY(-50%); /* Adjust for the height of the element itself */
     color: white;
-    font-size: 44px;
+    font-size: 64px;
     z-index: 10;
     margin-left: 5%;
 
@@ -60,20 +61,18 @@ body, html {
 .social-links{
     position: absolute;
     left: 20px;
-    top: 60%; /* Adjust this value as needed */
+    top: 75%; /* Adjust this value as needed */
     transform: translateY(-50%);
     color: white; /* Icon color */
     font-size: 24px; /* Icon size */
     z-index: 10;
     padding: 4.3%;
     display: inline-block; /* Display links on the same line */
-
-
 }
 
 .logo{
-    color: white;
-    font-size: 44px;
+    color: #F4DFC8;
+    font-size: 50px;
     padding: 4%;
     margin-left: 5%;
 }
@@ -84,14 +83,45 @@ body, html {
     align-items: center;
     position: absolute;
     left: 20px;
-    top: 50%;
+    top: 55%;
     transform: translateY(-50%);
     z-index: 10;
 }
 
 .social-links a {
-    color: white; /* Icon color */
+    color: #3F1D38; /* Icon color */
     font-size: 40px; /* Icon size */
     margin-right: 20px; /* Space between icons */
     display: inline-block; /* Display links on the same line */
+    transition: color 0.3s;
+}
+
+.summary{
+    position: absolute;
+    left: 20px;
+    top: 60%; /* Adjust this value as needed */
+    transform: translateY(-50%);
+    color: #E3651D; /* Icon color */
+    font-size: 34px; /* Icon size */
+    z-index: 10;
+    padding: 4.3%;
+    display: inline-block; /* Display links on the same line */
+}
+
+
+.summary a{
+    text-decoration: none;
+    color: #E3651D; /* Icon color */
+}
+
+.summary a:hover{
+    color: yellow;
+}
+
+#name {
+    color: #F4DFC8;
+}
+
+.logo:hover {
+    color: yellow;
 }
