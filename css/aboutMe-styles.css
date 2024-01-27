@@ -20,6 +20,7 @@ body {
     align-items: center;
     margin: 50px auto; /* Adjust the margin as needed */
     flex-direction: column; /* Center the content vertically */
+    justify-content: center;
 }
 
 .left-panel {
@@ -58,7 +59,10 @@ body {
 }
 
 #logo {
-    margin: 20px auto; /* Adjust the margin as needed */
-    height: 150px; /* Adjust the height as needed */
+    margin: auto; /* Adjust the margin as needed */
+    height: 300px; /* Adjust the height as needed */
     display: block; /* Center the image horizontally */
+    margin-top: 25vh;
+    width: 300px;
+    padding-right: 10%;
 }
