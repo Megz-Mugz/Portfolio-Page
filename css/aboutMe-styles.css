@@ -12,7 +12,7 @@ body {
 .container {
     width: 80%;
     background: #E6E6FA;
-    border-radius: 8px;
+    border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -21,6 +21,7 @@ body {
     margin: 50px auto; /* Adjust the margin as needed */
     flex-direction: column; /* Center the content vertically */
     justify-content: center;
+    text-align: center;
 }
 
 .left-panel {
