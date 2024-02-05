@@ -52,7 +52,7 @@ body {
 
 .skills h2, .experience h2, .education h2 {
     color: black;
-    border-bottom: 2px solid black;
+    border-bottom: hidden;
 }
 
 .education li {
@@ -88,7 +88,7 @@ body {
 
 /* Custom Navbar Styles */
 .navbar-nav .nav-item .nav-link {
-    color: black !important; /* White color for font */
+    color: white !important; /* White color for font */
     font-size: 34px; /* Increased font size */
     margin-right: 20px; /* Space between items */
 }
@@ -97,4 +97,8 @@ body {
 .navbar-transparent {
     background: transparent !important;
     box-shadow: none;
+}
+
+#navbar-logo{
+    padding: 10px;
 }
