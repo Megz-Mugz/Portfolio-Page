@@ -11,16 +11,15 @@ body {
 
 .container {
     width: 80%;
-    background: #E6E6FA;
+    min-height: 100vh; /* Full height of the viewport */
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    margin: 50px auto; /* Adjust the margin as needed */
-    flex-direction: column; /* Center the content vertically */
-    justify-content: center;
+    justify-content: center; /* Center items vertically */
+    margin: 0 auto; /* Horizontal centering */
     text-align: center;
 }
 
@@ -97,4 +96,16 @@ body {
 .navbar-transparent {
     background: transparent !important;
     box-shadow: none;
+}
+
+.card {
+    width: 100%; /* Adjust width as necessary */
+    margin-bottom: 20px; /* Space between cards */
+    /* Ensure the cards don't stretch beyond their content */
+    align-self: center; /* Align each card to the center of the flex container */
+    width: 1000px;
+}
+
+.card-header {
+    font-size: 30px;
 }
