@@ -37,12 +37,12 @@ body {
 }
 
 .right-panel h1 {
-    color: black; /* Change text color to black */
+    color: black;
     margin-bottom: 0.5em;
 }
 
 .right-panel p {
-    color: black; /* Change text color to black */
+    color: black;
     line-height: 1.6;
 }
 
@@ -56,7 +56,7 @@ body {
 }
 
 .education li {
-    margin-bottom: 15px; /* Adjust the value as needed */
+    margin-bottom: 15px; 
 }
 
 #logo {
@@ -97,8 +97,4 @@ body {
 .navbar-transparent {
     background: transparent !important;
     box-shadow: none;
-}
-
-#navbar-logo{
-    padding: 10px;
 }
