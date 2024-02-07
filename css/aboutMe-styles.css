@@ -21,6 +21,7 @@ body {
     justify-content: center; /* Center items vertically */
     margin: 0 auto; /* Horizontal centering */
     text-align: center;
+    margin-top: 2%;
 }
 
 .left-panel {
@@ -92,6 +93,10 @@ body {
     margin-right: 20px; /* Space between items */
 }
 
+.navbar-nav .nav-item .nav-link:hover {
+    color: yellow;
+}
+
 /* Transparent navbar background */
 .navbar-transparent {
     background: transparent !important;
@@ -104,10 +109,17 @@ body {
     /* Ensure the cards don't stretch beyond their content */
     align-self: center; /* Align each card to the center of the flex container */
     width: 1000px;
+    border: none; /* Removes the default border */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
 }
 
 .card-header {
     font-size: 30px;
+    background-color: #fff; /* Consider a light background */
+    font-weight: bold;
+    border-bottom: none; /* Optionally remove the border */
 }
 
 .skills-img{
@@ -118,4 +130,39 @@ body {
 
 .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.55)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Slightly raise the card on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increase shadow for lifting effect */
+    background-color: #eceef2;
+}
+
+.card-header {
+    background-color: #fff; /* Consider a light background */
+    font-weight: bold;
+    border-bottom: none; /* Optionally remove the border */
+}
+
+.card-body {
+    padding: 20px; /* Adjust padding as needed */
+}
+
+/* Further customization for buttons, text, etc., to match your color scheme */
+.btn-primary {
+    background-color: #007bff; /* Customize button color */
+    border: none; /* Remove border */
+    border-radius: 10px; /* Rounded button edges */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darken button on hover for effect */
+}
+
+/* Adjustments for images within cards to ensure they fit well */
+.skills-img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+    padding: 5px; /* Add some space around images */
 }
