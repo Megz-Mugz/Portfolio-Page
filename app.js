@@ -1,4 +1,3 @@
-// Function to simulate typing animation
 function startTypingAnimation() {
     const introText = document.getElementById("name");
     const textToType = "rohan mengle";
@@ -8,12 +7,11 @@ function startTypingAnimation() {
         if (index < textToType.length) {
             introText.textContent += textToType.charAt(index);
             index++;
-            setTimeout(typeCharacter, 350); // Adjust typing speed here (milliseconds)
+            setTimeout(typeCharacter, 350);
         }
     }
 
     typeCharacter();
 }
 
-// Call the typing animation function when the page loads
 window.onload = startTypingAnimation;
