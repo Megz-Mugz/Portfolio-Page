@@ -11,24 +11,23 @@ body {
 
 .container {
     width: 80%;
-    min-height: 100vh; /* Full height of the viewport */
+    min-height: 100vh; 
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* Center items vertically */
-    margin: 0 auto; /* Horizontal centering */
+    justify-content: center; 
+    margin: 0 auto; 
     text-align: center;
     margin-top: 2%;
 }
 
 .left-panel {
-    background: url('your-image.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
-    height: 300px; /* Adjust the height as needed */
+    height: 300px;
 }
 
 .right-panel {
@@ -60,9 +59,9 @@ body {
 }
 
 #logo {
-    margin: auto; /* Adjust the margin as needed */
-    height: 300px; /* Adjust the height as needed */
-    display: block; /* Center the image horizontally */
+    margin: auto; 
+    height: 300px;
+    display: block;
     margin-top: 25vh;
     width: 300px;
     padding-right: 10%;
@@ -76,7 +75,6 @@ body {
     height: 100%;
 }
 
-/* Centering the navbar */
 .navbar-nav {
     margin-left: auto;
     margin-right: auto;
@@ -86,40 +84,37 @@ body {
     justify-content: center;
 }
 
-/* Custom Navbar Styles */
 .navbar-nav .nav-item .nav-link {
-    color: white !important; /* White color for font */
-    font-size: 34px; /* Increased font size */
-    margin-right: 20px; /* Space between items */
+    color: white !important; 
+    font-size: 34px; 
+    margin-right: 20px; 
 }
 
 .navbar-nav .nav-item .nav-link:hover {
     color: yellow;
 }
 
-/* Transparent navbar background */
 .navbar-transparent {
     background: transparent !important;
     box-shadow: none;
 }
 
 .card {
-    width: 100%; /* Adjust width as necessary */
-    margin-bottom: 20px; /* Space between cards */
-    /* Ensure the cards don't stretch beyond their content */
-    align-self: center; /* Align each card to the center of the flex container */
+    width: 100%; 
+    margin-bottom: 20px; 
+    align-self: center;
     width: 1000px;
-    border: none; /* Removes the default border */
-    border-radius: 20px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card-header {
     font-size: 30px;
-    background-color: #fff; /* Consider a light background */
+    background-color: #fff;
     font-weight: bold;
-    border-bottom: none; /* Optionally remove the border */
+    border-bottom: none;
 }
 
 .skills-img{
@@ -133,36 +128,34 @@ body {
 }
 
 .card:hover {
-    transform: translateY(-5px); /* Slightly raise the card on hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increase shadow for lifting effect */
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
     background-color: #eceef2;
 }
 
 .card-header {
-    background-color: #fff; /* Consider a light background */
+    background-color: #fff; 
     font-weight: bold;
-    border-bottom: none; /* Optionally remove the border */
+    border-bottom: none; 
 }
 
 .card-body {
-    padding: 20px; /* Adjust padding as needed */
+    padding: 20px; 
 }
 
-/* Further customization for buttons, text, etc., to match your color scheme */
 .btn-primary {
-    background-color: #007bff; /* Customize button color */
-    border: none; /* Remove border */
-    border-radius: 10px; /* Rounded button edges */
-    transition: background-color 0.3s ease; /* Smooth background color transition */
+    background-color: #007bff;
+    border: none;
+    border-radius: 10px; 
+    transition: background-color 0.3s ease;
 }
 
 .btn-primary:hover {
-    background-color: #0056b3; /* Darken button on hover for effect */
+    background-color: #0056b3; 
 }
 
-/* Adjustments for images within cards to ensure they fit well */
 .skills-img {
-    max-width: 100%; /* Ensure images are responsive */
-    height: auto; /* Maintain aspect ratio */
-    padding: 5px; /* Add some space around images */
+    max-width: 100%; 
+    height: auto;
+    padding: 5px; 
 }
