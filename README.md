@@ -22,3 +22,8 @@ https://www.vantajs.com/
 link to github repo:
 
 https://github.com/Megz-Mugz/Portfolio-Page/
+
+
+link to website: 
+
+https://megz-mugz.github.io/Portfolio-Page/
